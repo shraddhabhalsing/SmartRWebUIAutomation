@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22073" started-at="2021-04-19T16:57:36 CEST" finished-at="2021-04-19T16:57:58 CEST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="7675" started-at="2021-04-19T16:57:36 CEST" finished-at="2021-04-19T16:57:43 CEST">
+      <class name="com.sb.qa.testcases.SmartReporting_UnitTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="basicSetUp" is-config="true" duration-ms="1176" started-at="2021-04-19T16:57:36 CEST" finished-at="2021-04-19T16:57:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="launchURL" duration-ms="4387" started-at="2021-04-19T16:57:37 CEST" finished-at="2021-04-19T16:57:41 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="enterConvertVal" duration-ms="248" started-at="2021-04-19T16:57:41 CEST" finished-at="2021-04-19T16:57:41 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="fromDrpdown(java.lang.String)[pri:3, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="fromDrpdown" duration-ms="281" started-at="2021-04-19T16:57:41 CEST" finished-at="2021-04-19T16:57:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AUD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fromDrpdown -->
+        <test-method status="PASS" signature="toDrpdown(java.lang.String)[pri:4, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="toDrpdown" duration-ms="247" started-at="2021-04-19T16:57:42 CEST" finished-at="2021-04-19T16:57:42 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toDrpdown -->
+        <test-method status="PASS" signature="clickBtn()[pri:5, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="clickBtn" duration-ms="215" started-at="2021-04-19T16:57:42 CEST" finished-at="2021-04-19T16:57:42 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBtn -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sb.qa.testcases.SmartReporting_UnitTest@1060b431]" name="closeBrowser" is-config="true" duration-ms="1041" started-at="2021-04-19T16:57:42 CEST" finished-at="2021-04-19T16:57:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sb.qa.testcases.SmartReporting_UnitTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="14347" started-at="2021-04-19T16:57:43 CEST" finished-at="2021-04-19T16:57:58 CEST">
+      <class name="com.sb.qa.testcases.SmartReportingEndToEndTest">
+        <test-method status="PASS" signature="basicSetUp()[pri:0, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="basicSetUp" is-config="true" duration-ms="44" started-at="2021-04-19T16:57:43 CEST" finished-at="2021-04-19T16:57:43 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basicSetUp -->
+        <test-method status="PASS" signature="launchURL()[pri:1, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="launchURL" duration-ms="3649" started-at="2021-04-19T16:57:43 CEST" finished-at="2021-04-19T16:57:47 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="1055" started-at="2021-04-19T16:57:48 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:49 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[AUD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YEN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="1104" started-at="2021-04-19T16:57:49 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:50 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YEN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="1073" started-at="2021-04-19T16:57:50 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:52 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YEN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="994" started-at="2021-04-19T16:57:52 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:53 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="986" started-at="2021-04-19T16:57:53 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:54 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[INR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HNL]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="718" started-at="2021-04-19T16:57:54 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:54 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[76.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HNL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="782" started-at="2021-04-19T16:57:54 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:55 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[32.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YEN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="759" started-at="2021-04-19T16:57:55 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:56 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[YEN]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[EUR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="696" started-at="2021-04-19T16:57:56 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:56 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[YEN]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="enterConvertVal(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="enterConvertVal" duration-ms="615" started-at="2021-04-19T16:57:56 CEST" data-provider="passSheet" finished-at="2021-04-19T16:57:57 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[54.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USD]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AUD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterConvertVal -->
+        <test-method status="PASS" signature="currencyConversionHistory()[pri:3, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="currencyConversionHistory" duration-ms="195" started-at="2021-04-19T16:57:57 CEST" finished-at="2021-04-19T16:57:57 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencyConversionHistory -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.sb.qa.testcases.SmartReportingEndToEndTest@22eeefeb]" name="closeBrowser" is-config="true" duration-ms="367" started-at="2021-04-19T16:57:57 CEST" finished-at="2021-04-19T16:57:58 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.sb.qa.testcases.SmartReportingEndToEndTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
